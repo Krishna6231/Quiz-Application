@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useTheme } from "./ThemeContext";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const { theme } = useTheme();
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  const handleLogin = () => {
+    navigate('/home');
+  }
 
   return (
     <div className={`flex w-full h-screen ${theme === "dark" ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
@@ -47,7 +53,7 @@ const Login = () => {
 
           {/* Login Button */}
           <div className="mt-8">
-            <button className="w-full py-3 bg-blue-500 hover:bg-blue-600 text-white font-bold text-lg rounded-lg transition-all">
+            <button onClick={handleLogin} className="w-full py-3 bg-blue-500 hover:bg-blue-600 text-white font-bold text-lg rounded-lg transition-all">
               Sign In
             </button>
           </div>

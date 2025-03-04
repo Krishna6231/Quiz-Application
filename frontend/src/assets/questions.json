@@ -1,0 +1,119 @@
+{
+    "single_correct": [
+      {
+        "question": "What does CPU stand for?",
+        "option1": "Central Processing Unit",
+        "option2": "Central Process Unit",
+        "option3": "Computer Personal Unit",
+        "option4": "Central Processor Unit",
+        "answer": "option1"
+      },
+      {
+        "question": "Which data structure follows FIFO principle?",
+        "option1": "Stack",
+        "option2": "Queue",
+        "option3": "Array",
+        "option4": "Linked List",
+        "answer": "option2"
+      },
+      {
+        "question": "Which language is primarily used for web development?",
+        "option1": "Python",
+        "option2": "Java",
+        "option3": "JavaScript",
+        "option4": "C++",
+        "answer": "option3"
+      },
+      {
+        "question": "What does HTML stand for?",
+        "option1": "Hyper Text Markup Language",
+        "option2": "High Tech Markup Language",
+        "option3": "Hyperlink and Text Markup Language",
+        "option4": "Home Tool Markup Language",
+        "answer": "option1"
+      },
+      {
+        "question": "Which company developed the Java programming language?",
+        "option1": "Microsoft",
+        "option2": "Sun Microsystems",
+        "option3": "Google",
+        "option4": "Apple",
+        "answer": "option2"
+      }
+    ],
+    "multi_correct": [
+      {
+        "question": "Which of the following are programming languages?",
+        "option1": "Python",
+        "option2": "JavaScript",
+        "option3": "HTML",
+        "option4": "CSS",
+        "answer": ["option1", "option2"]
+      },
+      {
+        "question": "Which are types of operating systems?",
+        "option1": "Real-time OS",
+        "option2": "Distributed OS",
+        "option3": "Batch OS",
+        "option4": "Browser OS",
+        "answer": ["option1", "option2", "option3"]
+      },
+      {
+        "question": "Which of these are NoSQL databases?",
+        "option1": "MongoDB",
+        "option2": "MySQL",
+        "option3": "Cassandra",
+        "option4": "PostgreSQL",
+        "answer": ["option1", "option3"]
+      },
+      {
+        "question": "Which are commonly used frontend frameworks?",
+        "option1": "React",
+        "option2": "Angular",
+        "option3": "Django",
+        "option4": "Vue",
+        "answer": ["option1", "option2", "option4"]
+      },
+      {
+        "question": "Which of these are networking protocols?",
+        "option1": "HTTP",
+        "option2": "TCP/IP",
+        "option3": "SQL",
+        "option4": "FTP",
+        "answer": ["option1", "option2", "option4"]
+      }
+    ],
+    "true_false": [
+      {
+        "question": "RAM is a type of permanent storage.",
+        "option1": "True",
+        "option2": "False",
+        "answer": "option2"
+      },
+      {
+        "question": "A compiler translates source code into machine code.",
+        "option1": "True",
+        "option2": "False",
+        "answer": "option1"
+      },
+      {
+        "question": "IPv6 is the successor to IPv4.",
+        "option1": "True",
+        "option2": "False",
+        "answer": "option1"
+      },
+      {
+        "question": "Machine learning is a subset of Artificial Intelligence.",
+        "option1": "True",
+        "option2": "False",
+        "answer": "option1"
+      },
+      {
+        "question": "DNS stands for Dynamic Name System.",
+        "option1": "True",
+        "option2": "False",
+        "answer": "option2"
+      }
+    ]
+  }
+  
